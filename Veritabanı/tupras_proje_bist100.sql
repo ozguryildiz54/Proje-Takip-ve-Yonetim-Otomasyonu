@@ -1,0 +1,49 @@
+-- MySQL dump 10.13  Distrib 5.7.9, for Win64 (x86_64)
+--
+-- Host: 127.0.0.1    Database: tupras_proje
+-- ------------------------------------------------------
+-- Server version	5.7.12-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `bist100`
+--
+
+DROP TABLE IF EXISTS `bist100`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `bist100` (
+  `sirket_isim` varchar(40) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `bist100`
+--
+
+LOCK TABLES `bist100` WRITE;
+/*!40000 ALTER TABLE `bist100` DISABLE KEYS */;
+INSERT INTO `bist100` VALUES ('ACSEL'),('ADANA'),('ADBGR'),('ADEL'),('ADESE'),('ADNAC'),('AEFES'),('AFYON'),('AGYO'),('AKBNK'),('AKCNS'),('AKENR'),('AKFGY'),('AKGRT'),('AKGUV'),('AKMGY'),('AKPAZ'),('AKSA'),('AKSEL'),('AKSEN'),('AKSGY'),('AKSUE'),('ALARK'),('ALBRK'),('ALCAR'),('ALCTL'),('ALGYO'),('ALKA'),('ALKIM'),('ALYAG'),('ANACM'),('ANELE'),('ANELT'),('ANHYT'),('ANSA'),('ANSGR'),('ARBUL'),('ARCLK'),('ARENA'),('ARMDA'),('ARSAN'),('ARTI'),('ASCEL'),('ASELS'),('ASLAN'),('ASUZU'),('ATAGY'),('ATEKS'),('ATLAS'),('ATPET'),('ATSYH'),('AVGYO'),('AVHOL'),('AVISA'),('AVOD'),('AVTUR'),('AYCES'),('AYEN'),('AYES'),('AYGAZ'),('BAGFS'),('BAKAB'),('BAKAN'),('BALAT'),('BANVT'),('BASCM'),('BEYAZ'),('BFREN'),('BIMAS'),('BISAS'),('BIZIM'),('BJKAS'),('BLCYT'),('BMEKS'),('BMELK'),('BNTAS'),('BOLUC'),('BOSSA'),('BOYP'),('BRISA'),('BRKO'),('BRKSN'),('BRMEN'),('BRSAN'),('BRYAT'),('BSOKE'),('BTCIM'),('BUCIM'),('BURCE'),('BURVA'),('CCOLA'),('CELHA'),('CEMAS'),('CEMTS'),('CIMSA'),('CLEBI'),('CMBTN'),('CMENT'),('COMDO'),('COSMO'),('CRDFA'),('CRFSA'),('CUSAN'),('DAGHL'),('DAGI'),('DARDL'),('DENCM'),('DENGE'),('DENIZ'),('DERIM'),('DESA'),('DESPC'),('DEVA'),('DGATE'),('DGGYO'),('DGKLB'),('DGZTE'),('DIRIT'),('DITAS'),('DMSAS'),('DOAS'),('DOBUR'),('DOCO'),('DOGUB'),('DOHOL'),('DURDO'),('DYOBY'),('DZGYO'),('ECBYO'),('ECILC'),('ECZYT'),('EDIP'),('EGCYH'),('EGCYO'),('EGEEN'),('EGGUB'),('EGLYO'),('EGPRO'),('EGSER'),('EKGYO'),('EKIZ'),('EMKEL'),('EMNIS'),('ENKAI'),('EPLAS'),('ERBOS'),('EREGL'),('ERSU'),('ESCOM'),('ESEMS'),('ETILR'),('ETYAT'),('EUHOL'),('EUKYO'),('EUYO'),('FENER'),('FENIS'),('FFKRL'),('FINBN'),('FLAP'),('FMIZP'),('FRIGO'),('FROTO'),('GARAN'),('GARFA'),('GDKGS'),('GEDIK'),('GEDIZ'),('GEDZA'),('GENTS'),('GENYH'),('GEREL'),('GLBMD'),('GLRYH'),('GLYHO'),('GNPWR'),('GOLTS'),('GOODY'),('GOZDE'),('GRNYO'),('GSDDE'),('GSDHO'),('GSRAY'),('GUBRF'),('GUSGR'),('GYHOL'),('HALKB'),('HALKS'),('HATEK'),('HDFGS'),('HEKTS'),('HLGYO'),('HURGZ'),('HZNDR'),('ICBCT'),('IDAS'),('IDGYO'),('IEYHO'),('IHEVA'),('IHGZT'),('IHLAS'),('IHMAD'),('IHYAY'),('INDES'),('INFO'),('INTEM'),('IPEKE'),('ISATR'),('ISBIR'),('ISBTR'),('ISCTR'),('ISDMR'),('ISFIN'),('ISGSY'),('ISGYO'),('ISKUR'),('ISMEN'),('ISYAt'),('ITTFH'),('IZFAS'),('IZMDC'),('IZOCM'),('IZTAR'),('JANTS'),('KAPLM'),('KAREL'),('KARSN'),('KARTN'),('KATMR'),('KCHOL'),('KENT'),('KERVN'),('KERVT'),('KIPA'),('KLGYO'),('KLMSN'),('KLNMA'),('KNFRT'),('KOMHL'),('KONYA'),('KORDS'),('KOZAA'),('KOZAL'),('KPHOL'),('KRATL'),('KRDMA'),('KRDMB'),('KRDMD'),('KRGYO'),('KRONT'),('KRSAN'),('KRSTL'),('KRTEK'),('KSTUR'),('KUTPO'),('KUYAS'),('LIDFA'),('LINK'),('LKMNH'),('LOGO'),('LUKSK'),('MAALT'),('MAKTK'),('MARTI'),('MCTAS'),('MEGAP'),('MEMSA'),('MENBA'),('MEPET'),('MERIT'),('MERKO'),('METAL'),('METRO'),('METUR'),('MGROS'),('MIPAZ'),('MMCAS'),('NDRS'),('MRDIN'),('MRGYO'),('MRSHL'),('MZHLD'),('NETAS'),('NIBAS'),('NTHOL'),('NTTUR'),('NUGYO'),('NUHCM'),('ODAS'),('OLMIP'),('ORGE'),('ORMA'),('OSMEN'),('OSTIM'),('OTKAR'),('OYAYO'),('OYLUM'),('OZBAL'),('OZGYO'),('OZKGY'),('OZRDN'),('PAGYO'),('PARSN'),('PEGYO'),('PENGD'),('PETKM'),('PETUN'),('PGSUS'),('PIMAS'),('PINSU'),('PKART'),('PKENT'),('PNSUT'),('POLHO'),('POLTK'),('PRKAB'),('PRKME'),('PRZMA'),('PSDTC'),('RAYSG'),('RHEAG'),('RODRG'),('ROYAL'),('RTALB'),('RYGYO'),('RYSAS'),('SAFGY'),('SAHOL'),('SAMAT'),('SANEL'),('SANFM'),('SANKO'),('SARKY'),('SASA'),('SAYAS'),('SEKFK'),('SELEC'),('SELGD'),('SERVE'),('SEYKM'),('SILVR'),('SISE'),('SKBNK'),('SKTAS'),('SNGYO'),('SNKRN'),('SNPAM'),('SODA'),('SODSN'),('SONME'),('SRVGY'),('TACTR'),('TATGD'),('TAVHL'),('TBORG'),('TCELL'),('TCHOL'),('TEKTU'),('TGSAS'),('THYAO'),('TIRE'),('TKFEN'),('TKNSA'),('TKURU'),('TMPOL'),('TMSN'),('TOASO'),('TRCAS'),('TRGYO'),('TRKCM'),('TRNSK'),('TSGYO'),('TSKB'),('TSPOR'),('TTKOM'),('TTRAK'),('TUCLK'),('TUKAS'),('TUPRS'),('TURGG'),('UFUK'),('ULAS'),('ULKER'),('ULUSE'),('ULUUN'),('UMPAS'),('UNYEC'),('USAK'),('USAS'),('UTPYA'),('UYUM'),('UZERB'),('VAKBN'),('VAKFN'),('VAKKO'),('VANGD'),('VERTU'),('VERUS'),('VESBE'),('VESTL'),('VKFYO'),('VKGYO'),('VKING'),('YAPRK'),('YATAS'),('YAYLA'),('YAZIC'),('YBTAS'),('YESIL'),('YGGYO'),('YGYO'),('YKBNK'),('YKGYO'),('YUNSA'),('YYAPI'),('ZOREN');
+/*!40000 ALTER TABLE `bist100` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2016-10-15 22:10:07
