@@ -1,0 +1,2 @@
+# Proje-Takip-ve-Yonetim-Otomasyonu
+Bu proje bilgisayar yazılımları kullanılarak hazırlanan projelerin takibini ve yönetimini sağlar. Yani örnek olarak bir mimarsınız ve mimari proje çizmek için bir bilgisayar yazılımını kullanıyorsunuz. Yada bir yazılım geliştiricisisiniz ve yine bir bir Ide kullanarak yazılım geliştirmek istiyorsunuz. İşte tam burada bu yazılımımız ile bilgisayar kullanarak hazırladığınız tüm projenizin detaylarına ve yönetimine ulaşabiliyorsunuz.
