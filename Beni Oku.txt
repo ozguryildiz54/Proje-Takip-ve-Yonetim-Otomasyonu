@@ -1,2 +1,0 @@
-kullanıcı adı : admin
-şifre : 1

@@ -1,2 +1,3 @@
-# Proje-Takip-ve-Yonetim-Otomasyonu
-Bu proje bilgisayar yazılımları kullanılarak hazırlanan projelerin takibini ve yönetimini sağlar. Yani örnek olarak bir mimarsınız ve mimari proje çizmek için bir bilgisayar yazılımını kullanıyorsunuz. Yada bir yazılım geliştiricisisiniz ve yine bir bir Ide kullanarak yazılım geliştirmek istiyorsunuz. İşte tam burada bu yazılımımız ile bilgisayar kullanarak hazırladığınız tüm projenizin detaylarına ve yönetimine ulaşabiliyorsunuz.
+# Project Tracking and Management Automation
+
+This project enables the tracking and management of projects created using computer software. For example, if you are an architect using software to draft an architectural design, or a software developer using an IDE to build software, this tool allows you to access all the details and manage the entire process of your computer-based projects.
